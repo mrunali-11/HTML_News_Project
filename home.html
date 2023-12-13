@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .header {
+            background-color: blue;
+            height: 70px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .horizontal_nav {
+            margin: 0px 85px;
+        }
+
+        .head_nav {
+            display: flex;
+            list-style: none;
+        }
+
+        .head_nav li {
+            color: white;
+            margin: 10px 18px;
+            text-align: center;
+            padding: 15px;
+            border: 1px solid yellow;
+            background-color: black;
+            box-shadow: 10px 5px 5px orange inset;
+            border-radius: 20px;
+            text-decoration: none;
+
+        }
+
+        .head_nav li a {
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .main_body {
+            display: flex;
+        }
+
+        .aside {
+            width: 20%;
+            background-color: blue;
+            padding: 10px;
+            height: 539px;
+        }
+
+        .vertical_nav {
+            list-style: none;
+        }
+
+        .vertical_nav li {
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border: 1px solid yellow;
+            background-color: black;
+            box-shadow: 10px 5px 5px orange inset;
+            border-radius: 20px;
+            text-decoration: none;
+            margin: 35px;
+
+        }
+
+        .vertical_nav li a {
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+
+        .article {
+            width: 80%;
+            /* background-color: pink; */
+        }
+
+        .marquee {
+            display: flex;
+        }
+
+        .news {
+            background-color: red;
+            color: white;
+            height: 50px;
+            width: 10%;
+
+        }
+
+        .news h1 {
+            /* background-color: red; */
+            margin: 8px;
+        }
+
+        .marquee {
+            background-color: black;
+            color: white;
+            height: 50px;
+            width: 100%;
+        }
+
+        .marquee_tag {
+
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        .azZ {
+            font-weight: 100px;
+            color: greenyellow;
+            margin: 20px 60px;
+            text-shadow: 5px 5px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <!-- <h1 class="a2Z">A2Z NEWS</h1> -->
+            <a href="./home.html"><h1 class="azZ">A2Z NEWS</h1></a>
+
+            <div class="horizontal_nav">
+                <ul class="head_nav">
+                    <li><a href="./lokmat.html">LOKMAT</a></li>
+                    <li><a href="./samna.html">SAMANA</a></li>
+                    <li><a href="./sakal.html">SAKAL</a></li>
+                    <li><a href="./loksatta.html">LOKSATTA</a></li>
+                    <li><a href="./mh_times.html">MH TIMES</a></li>
+                    <li><a href="./zunzarneta.html">ZUNJAR NETA</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_body">
+            <div class="aside">
+                <ul class="vertical_nav">
+                    <li><a href="./lokmat.html">LOKMAT</a></li>
+                    <li><a href="./samna.html">SAMANA</a></li>
+                    <li><a href="./sakal.html">SAKAL</a></li>
+                    <li><a href="./loksatta.html">LOKSATTA</a></li>
+                    <li><a href="./mh_times.html">MH TIMES</a></li>
+                    <li><a href="./zunzarneta.html">ZUNJAR NETA</a></li>
+                </ul>
+            </div>
+            <div class="article">
+                <div class="marquee">
+                    <div class="news">
+                        <h1>NEWS:</h1>
+                    </div>
+                    <div class="marquee_tag">
+                        <marquee behavior="slide" direction="left">@ Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Labore, vero.</marquee>
+                    </div>
+                </div>
+
+                <div style="display: flex;">
+                    <div class="table" style="width: 70%; background-color:white;">
+                        <div class="1st_img" style=" width: 33%; height: 250px; float: left;border: 1px solid black;">
+                            <img src="./Media/sakal.JPG" alt="sakal" width="90%" height="80%">
+                            <a href="sakal.html" style="margin-top: 70px;margin-left: 70px;">VISIT NOW</a>
+                        </div>
+                        <div class="2nd_img" style=" width: 33%; height: 250px; float: left;border: 1px solid black;">
+                            <img src="./Media/lokmat.JPG" alt="lokmat" width="90%" height="80%">
+                            <a href="lokmat.html" style="margin-top: 70px;margin-left: 70px;">VISIT NOW</a>
+                        </div>
+                        <div class="3rd_img"
+                            style=" width: 33.34%; height: 250px; float: left; border: 1px solid black;">
+                            <img src="./Media/loksatta.JPG" alt="loksatta" width="100%" height="80%">
+                            <a href="loksatta.html" style="margin-top: 70px;margin-left: 70px;">VISIT NOW</a>
+                        </div>
+                        <div class="3rd_img" style=" width: 33%; height: 250px; float: left;border: 1px solid black;">
+                            <img src="./Media/samana.JPG" alt="samna" width="100%" height="80%">
+                            <a href="samna.html" style="margin-top: 70px;margin-left: 70px;">VISIT NOW</a>
+                        </div>
+                        <div class="3rd_img" style=" width: 33%; height: 250px; float: left;border: 1px solid black;">
+                            <img src="./Media/MH times.JPG" alt="MH TIMES" width="100%" height="80%">
+                            <a href="mh_times.html" style="margin-top: 70px;margin-left: 70px;">VISIT NOW</a>
+                        </div>
+                        <div class="3rd_img"
+                            style=" width: 33.34%; height: 250px; float: left;border: 1px solid black;">
+                            <img src="./Media/junjhar neta.JPG" alt="junjhar neta" width="100%" height="80%">
+                            <a href="junjhar neta.html" style="margin-top: 70px;margin-left: 70px;">VISIT NOW</a>
+                        </div>
+
+
+                    </div>
+
+                    <div class="form" style="width: 30%; background-color: grey;">
+
+                        <form action="" style="margin: 100px;">
+                            <h1 style="background-color: yellow;"><i>JOIN NOW</i></h1><br><br>
+                            <label for="name">Name:</label><br>
+                            <input type="text" name="name" id="name" placeholder="Enter Your Name"><br><br>
+                            <label for="mail">Mail:</label><br>
+                            <input type="email" name="email" id="email" placeholder="Enter Your Mail ID" /><br><br>
+                            <label for="mobile_no">Mobile No:</label><br>
+                            <input type="tel" id="mobile_no" placeholder="Enter Your Mobile No"><br><br>
+                            <input type="button" value="JOIN NOW"
+                                style="background-color: black; color: white ; width: 100px; height: 40px; border-radius: 10px;">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
